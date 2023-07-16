@@ -1,0 +1,72 @@
+@media screen and (max-width:450px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Girassol';
+        text-align:center;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #004868;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left:1%;
+        margin-right:3%;
+
+    }
+
+    .logo {
+        width: clamp(4rem, 2vw, 10rem);
+    }
+
+    .line {
+        background-color: #D5A530;
+        margin-bottom:10%;
+    }
+    .blackbox {
+        background-color: black;
+        width: 75%;
+        border-radius:20px;
+        margin:10% auto;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .img {
+        width: clamp(7.5rem, 2.5vw, 12rem);
+        border-radius: 100px;
+        border: 1px solid white;
+        margin:auto;
+        margin-top:-60px;
+
+    }
+    .nome {
+        color: rgb(255, 251, 240);
+        font-size: 26px;
+        font-family: Girassol;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin:10px;
+    
+    }
+    .people{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .photo{
+        background-color: #D5A530;
+        padding:10px;
+        border-radius: 15px;
+        margin-bottom:35px;
+       
+    }
+}

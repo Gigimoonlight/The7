@@ -1,0 +1,19 @@
+@media screen and (max-width:450px) {
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+   body{
+    background-color:#004868;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+   }
+    .logo {
+        width: 340px;
+        height: 340px;
+    }
+}

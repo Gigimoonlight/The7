@@ -1,0 +1,77 @@
+@media screen and (max-width:450px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Girassol';
+        text-align:center;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #004868;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left:1%;
+        margin-right:3%;
+
+    }
+
+
+    .line {
+        background-color: #D5A530;
+        margin-bottom:10%;
+    }
+    .content{
+        display:flex;
+        align-items: center;
+        justify-content:space-around;
+    }
+   /* .leftb{
+        background-color:#D5A530;
+        border-radius:100px;
+        padding:5px 11px;
+        rotate:180deg;
+    }
+    .rightb{
+        background-color:#D5A530;
+        border-radius:100px;
+        padding:5px 11px;
+    }*/
+    .neximg{
+        background-color:#D5A530;
+        border-radius:10px;
+        padding:6px 12px;
+        font-size:22px;
+        margin:20px;
+        color:black;
+    }
+    .img{
+        width:clamp(19rem, 2vw, 30rem);
+        height:clamp(35rem, 2vw, 50rem);
+        border-style:double;
+    }
+
+    .house{
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    .logo{
+        width: clamp(6,5rem, 2vw, 7rem);
+    }
+    .profecia{
+        width:97vw;
+        height: 75vh;
+        border-radius:20px;
+    }
+    .the{
+        width: clamp(4rem, 2vw, 10rem);
+    }
+
+}
