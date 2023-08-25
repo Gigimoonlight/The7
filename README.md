@@ -11,4 +11,6 @@ This site is made to present the 7 principal characters of the collection of boo
 
 ## Website Preview
 
-![This is an alt text.](/image/sample.png "Website Previw.")
+![This is an alt text.](captura2.JPG "Website Previw.")
+
+![This is an alt text.](captura.JPG "Website Previw.")
